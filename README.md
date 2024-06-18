@@ -81,10 +81,5 @@ This project is designed to take an image as input, generate a caption from the 
 - LangChain for the LLMChain and ChatGroq integration.
 - Streamlit for the user-friendly UI framework.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
 
 Feel free to contribute to this project by submitting issues or pull requests. Happy coding!
