@@ -47,7 +47,7 @@
 # # Text to speech
 # def text2speech(message, output_path='audio.wav'):
 #     API_URL = "https://api-inference.huggingface.co/models/facebook/mms-tts-eng"
-#     headers = {"Authorization": f"Bearer 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"}
+#     headers = {"Authorization": f"Bearer Your huggingface access tokens"}
 #     payload = {"inputs": message}
 #     response = requests.post(API_URL, headers=headers, json=payload)
     
@@ -131,7 +131,7 @@ def generate_story(scenario):
 # Text to speech
 def text2speech(message, output_path='audio.wav'):
     API_URL = "https://api-inference.huggingface.co/models/facebook/mms-tts-eng"
-    headers = {"Authorization": f"Bearer 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"}
+    headers = {"Authorization": f"Bearer Your huggingface access tokens"}
     payload = {"inputs": message}
     response = requests.post(API_URL, headers=headers, json=payload)
 
